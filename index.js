@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
+const PORT = process.env.PORT || 3300
 
 const randomNumber = require("./assets/rand");
 const frasesDoPato = require("./assets/frasesDoPato");
@@ -25,6 +26,6 @@ app.get("/api/frases", (req, res) => {
   res.json(fraseFormatada);
 });
 
-app.listen(3300, () => {
+app.listen(PORT, () => {
   console.log("API do Pato Filósofo rodando em http://localhost:3300");
 });
