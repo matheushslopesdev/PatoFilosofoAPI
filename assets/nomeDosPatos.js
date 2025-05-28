@@ -1,0 +1,22 @@
+module.exports = nomeDosPatos = [
+  "Pato Sócrates",
+  "Platão das Águas Rasas",
+  "Nietzquac",
+  "Aristopato",
+  "Confupato",
+  "Friedrich Quacsche",
+  "Descartesquac",
+  "Lamaquac",
+  "Jean-Quac Sartre",
+  "Paticínio de La Granja",
+  "Quacxime de Mileto",
+  "Pato Epicurioso",
+  "Heguelhinho",
+  "Michel Foucaultic",
+  "Pato Parmênides",
+  "Quactino Gramsci",
+  "Herácliquac",
+  "Pondé de Penas",
+  "Kantando no Lago",
+  "Karl Quacx"
+];
