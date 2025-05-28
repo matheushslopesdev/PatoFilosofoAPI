@@ -12,9 +12,10 @@ app.get("/api/frases", (req, res) => {
   if (!frasesDoPato.length || !nomeDosPatos.length) {
     return res.status(500).json({ erro: "Dados indisponíveis no momento." });
   }
-
-  const randFrases = randomNumber(0, frasesDoPato.length);
-  const randPatos = randomNumber(0, nomeDosPatos.length);
+  
+  const randFrases = randomNumber(0, frasesDoPato.length - 1);
+  const randPatos = randomNumber(0, nomeDosPatos.length - 1);
+  
 
   const fraseFormatada = {
     frase: frasesDoPato[randFrases],
